@@ -1,0 +1,123 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-size: 25px;
+    color: #1D3557;
+    font-family: 'Gideon Roman', cursive;
+}
+#visit{
+    background: #1D3557;
+    padding: 5px 12px;
+    border-radius: 10px; 
+    font-size: 25px;
+    margin: 50px ;
+   
+    
+    
+}
+#isb{
+    background: #457B9D;
+    padding: 5px 12px;
+    border-radius: 10px;
+    font-size: 25px;
+    margin: -30px;
+}
+
+
+h1, h2, h3, h4{
+    font-family: 'Gideon Roman', cursive;
+    font-weight: bold;
+}
+p{
+    font-weight: 200px;
+}
+img {
+    width: 100px;
+}
+.background{
+    background-image: url("images/faisal.jpg");
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0 40px 0;
+    
+    
+}
+#activities{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    background: #F1FAEE;
+    margin: 0 auto;
+}
+#bnn{
+    background: #F1FAEE;
+    text-align: center;
+    margin-top: -30px;
+}
+
+#moun{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    text-align: center;
+}
+#monu{
+     width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    text-align: center;
+}
+#trail{
+     width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.card{
+    margin-bottom: 30px;
+    margin-left: 150px;
+    margin-top: 30px;
+    width: 750px;
+    height:300px;
+    padding: 10px 40px 40px 0px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: inherit;
+    text-align: center;
+    background:#A8DADC;
+    color: #1D3557;
+    box-shadow: 0px 15px 0px #1D3557;
+    border-radius: 10px;
+}
+
+.hov-img{
+    margin: 5px 12px;
+    width: 750px;
+    height: 300px;
+    border-radius: 10px;
+    background-image: url("images/who.jpg");
+    background-size: cover;
+}
+#hov-img-real:hover {
+    background-image: url("images/Sherjeel.jpg");
+}
+.intro{
+    font-style: italic;
+}
